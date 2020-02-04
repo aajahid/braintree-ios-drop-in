@@ -32,7 +32,7 @@ static BTUIKAppearance *sharedTheme;
     sharedTheme.blurStyle = UIBlurEffectStyleExtraLight;
     sharedTheme.activityIndicatorViewStyle = UIActivityIndicatorViewStyleGray;
     sharedTheme.useBlurs = YES;
-    sharedTheme.postalCodeFormFieldKeyboardType = UIKeyboardTypeNumberPad;
+    sharedTheme.postalCodeFormFieldKeyboardType = UIKeyboardTypeDefault;
 }
 
 + (void)darkTheme {
@@ -52,7 +52,7 @@ static BTUIKAppearance *sharedTheme;
     sharedTheme.blurStyle = UIBlurEffectStyleDark;
     sharedTheme.activityIndicatorViewStyle = UIActivityIndicatorViewStyleWhite;
     sharedTheme.useBlurs = YES;
-    sharedTheme.postalCodeFormFieldKeyboardType = UIKeyboardTypeNumberPad;
+    sharedTheme.postalCodeFormFieldKeyboardType = UIKeyboardTypeDefault;
 }
 
 - (UIColor *)highlightedTintColor {
